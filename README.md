@@ -1,0 +1,2 @@
+RoboCash is a mobile application that can be used to manage your finances. By Recording the amount of your expenses and income, our system will analyze your financial condition whether it is stable or not. We also provide graphical features to make it easier for you to view your financial history.
+You can run this project on your Android Studio. Or you can also download the .apk file in _apkFile folder and install it on your android device.
