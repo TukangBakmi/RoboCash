@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@mipmap/animation_gear_green1" android:duration="50"/>
+    <item android:drawable="@mipmap/animation_gear_green2" android:duration="50"/>
+    <item android:drawable="@mipmap/animation_gear_green3" android:duration="50"/>
+    <item android:drawable="@mipmap/animation_gear_green4" android:duration="50"/>
+    <item android:drawable="@mipmap/animation_gear_green5" android:duration="50"/>
+    <item android:drawable="@mipmap/animation_gear_green6" android:duration="50"/>
+    <item android:drawable="@mipmap/animation_gear_green7" android:duration="50"/>
+    <item android:drawable="@mipmap/animation_gear_green8" android:duration="50"/>
+    <item android:drawable="@mipmap/animation_gear_green9" android:duration="50"/>
+    <item android:drawable="@mipmap/animation_gear_green10" android:duration="50"/>
+    <item android:drawable="@mipmap/animation_gear_green11" android:duration="50"/>
+    <item android:drawable="@mipmap/animation_gear_green12" android:duration="50"/>
+    <item android:drawable="@mipmap/animation_gear_green13" android:duration="50"/>
+    <item android:drawable="@mipmap/animation_gear_green14" android:duration="50"/>
+    <item android:drawable="@mipmap/animation_gear_green15" android:duration="50"/>
+</animation-list>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "328898353463",
+    "project_id": "robocash-4d6ac",
+    "storage_bucket": "robocash-4d6ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328898353463:android:f12e514c3e0728f05462b2",
+        "android_client_info": {
+          "package_name": "com.albertukrida.a412020031_projectuas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328898353463-aq1mdtshcssmiqerlq6iji1t7jegb6vf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.albertukrida.a412020031_projectuas",
+            "certificate_hash": "a062dfe27ea3d52bd2c8879e0e4290e91baee067"
+          }
+        },
+        {
+          "client_id": "328898353463-jjsr04n970kcht6f8s2mvpfbjkem0po8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj5cjXVpZWuOFlvS-z-d7j6jqDCVswXB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328898353463-jjsr04n970kcht6f8s2mvpfbjkem0po8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

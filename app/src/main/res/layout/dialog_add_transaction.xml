@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="8dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginHorizontal="8dp"
+            android:text="@string/transaction_type"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="40dp"
+            android:layout_marginHorizontal="8dp">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnIncome"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="12dp"
+                android:paddingHorizontal="4dp"
+                android:background="@drawable/shape_button_green"
+                android:text="@string/income"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:ems="10" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnExpenses"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                android:paddingHorizontal="4dp"
+                android:background="@drawable/shape_button"
+                android:text="@string/expenses"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:ems="10" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginHorizontal="8dp"
+            android:text="@string/transaction_category"
+            android:textColor="@color/black" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="40dp">
+
+            <View
+                android:id="@+id/center"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:visibility="invisible"
+                android:layout_centerHorizontal="true"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnAutomotive"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="4dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/center"
+                android:ems="10"
+                android:paddingStart="12dp"
+                android:paddingEnd="4dp"
+                android:text="@string/automotive"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:background="@drawable/shape_button_green"
+                android:drawablePadding="2dp"
+                app:drawableLeftCompat="@mipmap/icon_automotive"
+                app:drawableTint="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnBeautyCare"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="4dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/center"
+                android:paddingStart="12dp"
+                android:paddingEnd="4dp"
+                android:text="@string/beauty_care"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:ems="10"
+                android:background="@drawable/shape_button"
+                android:drawablePadding="2dp"
+                app:drawableLeftCompat="@mipmap/icon_beauty_care"
+                app:drawableTint="@color/black"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnBooks"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="4dp"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/center"
+                android:layout_below="@id/btnAutomotive"
+                android:paddingStart="12dp"
+                android:paddingEnd="4dp"
+                android:text="@string/books"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:ems="10"
+                android:background="@drawable/shape_button"
+                android:drawablePadding="2dp"
+                app:drawableLeftCompat="@mipmap/icon_books"
+                app:drawableTint="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnDebtCredit"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="4dp"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/center"
+                android:layout_below="@id/btnBeautyCare"
+                android:paddingStart="12dp"
+                android:paddingEnd="4dp"
+                android:text="@string/debt_credit"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:ems="10"
+                android:background="@drawable/shape_button"
+                android:drawablePadding="2dp"
+                app:drawableLeftCompat="@mipmap/icon_debt_credit"
+                app:drawableTint="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnDecoration"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="4dp"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/center"
+                android:layout_below="@id/btnBooks"
+                android:paddingStart="12dp"
+                android:paddingEnd="4dp"
+                android:text="@string/decoration"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:ems="10"
+                android:background="@drawable/shape_button"
+                android:drawablePadding="2dp"
+                app:drawableLeftCompat="@mipmap/icon_decoration"
+                app:drawableTint="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnElectronic"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="4dp"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/center"
+                android:layout_below="@id/btnDebtCredit"
+                android:paddingStart="12dp"
+                android:paddingEnd="4dp"
+                android:text="@string/electronic"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:ems="10"
+                android:background="@drawable/shape_button"
+                android:drawablePadding="2dp"
+                app:drawableLeftCompat="@mipmap/icon_electronic"
+                app:drawableTint="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnFashion"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="4dp"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/center"
+                android:layout_below="@id/btnDecoration"
+                android:paddingStart="12dp"
+                android:paddingEnd="4dp"
+                android:text="@string/fashion"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:ems="10"
+                android:background="@drawable/shape_button"
+                android:drawablePadding="2dp"
+                app:drawableLeftCompat="@mipmap/icon_fashion"
+                app:drawableTint="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnFoodBeverages"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="4dp"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/center"
+                android:layout_below="@id/btnElectronic"
+                android:paddingStart="12dp"
+                android:paddingEnd="4dp"
+                android:text="@string/food_beverages"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:ems="10"
+                android:background="@drawable/shape_button"
+                android:drawablePadding="2dp"
+                app:drawableLeftCompat="@mipmap/icon_food_beverages"
+                app:drawableTint="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnGift"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="4dp"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/center"
+                android:layout_below="@id/btnFashion"
+                android:paddingStart="12dp"
+                android:paddingEnd="4dp"
+                android:text="@string/gift"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:ems="10"
+                android:background="@drawable/shape_button"
+                android:drawablePadding="2dp"
+                app:drawableLeftCompat="@mipmap/icon_gift"
+                app:drawableTint="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnHealth"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="4dp"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/center"
+                android:layout_below="@id/btnFoodBeverages"
+                android:paddingStart="12dp"
+                android:paddingEnd="4dp"
+                android:text="@string/health"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:ems="10"
+                android:background="@drawable/shape_button"
+                android:drawablePadding="2dp"
+                app:drawableLeftCompat="@mipmap/icon_health"
+                app:drawableTint="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnHomeLiving"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="4dp"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/center"
+                android:layout_below="@id/btnGift"
+                android:paddingStart="12dp"
+                android:paddingEnd="4dp"
+                android:text="@string/home_living"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:ems="10"
+                android:background="@drawable/shape_button"
+                android:drawablePadding="2dp"
+                app:drawableLeftCompat="@mipmap/icon_home_living"
+                app:drawableTint="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSports"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="4dp"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/center"
+                android:layout_below="@id/btnHealth"
+                android:paddingStart="12dp"
+                android:paddingEnd="4dp"
+                android:text="@string/sports"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:ems="10"
+                android:background="@drawable/shape_button"
+                android:drawablePadding="2dp"
+                app:drawableLeftCompat="@mipmap/icon_sports"
+                app:drawableTint="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnTransportation"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="4dp"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/center"
+                android:layout_below="@id/btnHomeLiving"
+                android:paddingStart="12dp"
+                android:paddingEnd="4dp"
+                android:text="@string/transportation"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:ems="10"
+                android:background="@drawable/shape_button"
+                android:drawablePadding="2dp"
+                app:drawableLeftCompat="@mipmap/icon_transportation"
+                app:drawableTint="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnOthers"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="4dp"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/center"
+                android:layout_below="@id/btnSports"
+                android:paddingStart="12dp"
+                android:paddingEnd="4dp"
+                android:text="@string/others"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:ems="10"
+                android:background="@drawable/shape_button"
+                android:drawablePadding="2dp"
+                app:drawableLeftCompat="@mipmap/icon_others"
+                app:drawableTint="@color/black" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/transaction_amount"
+            android:textColor="@color/black" />
+        <EditText
+            android:id="@+id/txtTransactionAmt"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginBottom="40dp"
+            android:paddingHorizontal="4dp"
+            android:paddingVertical="2dp"
+            android:background="@drawable/shape_border"
+            android:inputType="number"
+            android:hint="Maximal 13 digits"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/transaction_description"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/txtTransactionDesc"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginBottom="40dp"
+            android:paddingHorizontal="4dp"
+            android:paddingVertical="2dp"
+            android:background="@drawable/shape_border"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:hint="@string/maximal_50_characters" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/transaction_date"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/txtTransactionDate"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginBottom="40dp"
+            android:paddingHorizontal="4dp"
+            android:paddingVertical="2dp"
+            android:background="@drawable/shape_border"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:drawablePadding="4dp"
+            app:drawableRightCompat="@drawable/ic_baseline_date_range_24"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+            <TextView
+                android:id="@+id/btnCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:paddingVertical="24dp"
+                android:textSize="16sp"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:text="@string/cancel"/>
+            <TextView
+                android:id="@+id/btnNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="4dp"
+                android:paddingVertical="24dp"
+                android:textSize="16sp"
+                android:textColor="@color/green"
+                android:textStyle="bold"
+                android:text="@string/confirm"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

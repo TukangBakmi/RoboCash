@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">RoboCash</string>
+    <string name="facebook_app_id">1234</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+
+    <!-- Login Signup Page -->
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgotPassword"><u>Forgot Password?</u></string>
+    <string name="resendEmail"><u>Resend the verification email?</u></string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="username">Name</string>
+    <string name="hint1">Enter 4–32 Character</string>
+    <string name="hint2">Enter a valid email</string>
+    <string name="hint3">Use a strong password</string>
+    <string name="hint4">Rewrite your password</string>
+    <string name="ok">OK</string>
+    <string name="registration_complete">Your registration process is almost complete! Please check your email then click the link provided to verify your account. If you have not receive a verification email, please check spam or trash folder in your email.</string>
+
+    <!-- Navigation Menu -->
+    <string name="home">Home</string>
+    <string name="transactions">Transactions</string>
+    <string name="profile">Profile</string>
+    <string name="about">About</string>
+
+    <!-- Home & Transactions Fragment -->
+    <string name="current_balance">Current Balance</string>
+    <string name="income">INCOME</string>
+    <string name="expenses">EXPENSES</string>
+    <string name="leftover">LEFTOVER</string>
+    <string name="all_time">All Time</string>
+    <string name="this_year">This Year</string>
+    <string name="jan">Jan</string>
+    <string name="feb">Feb</string>
+    <string name="mar">Mar</string>
+    <string name="apr">Apr</string>
+    <string name="may">May</string>
+    <string name="jun">Jun</string>
+    <string name="jul">Jul</string>
+    <string name="aug">Aug</string>
+    <string name="sep">Sep</string>
+    <string name="oct">Oct</string>
+    <string name="nov">Nov</string>
+    <string name="dec">Dec</string>
+    <string name="transaction_type">Transaction Type</string>
+    <string name="transaction_category">Transaction Category</string>
+    <string name="automotive">Automotive</string>
+    <string name="books">Books</string>
+    <string name="debt_credit">Debt/Credit</string>
+    <string name="decoration">Decoration</string>
+    <string name="electronic">Electronic</string>
+    <string name="fashion">Fashion</string>
+    <string name="gift">Gift</string>
+    <string name="health">Health</string>
+    <string name="sports">Sports</string>
+    <string name="transportation">Transport</string>
+    <string name="others">Others</string>
+    <string name="beauty_care"><![CDATA[Beauty & Care]]></string>
+    <string name="food_beverages"><![CDATA[Food & Beverages]]></string>
+    <string name="home_living"><![CDATA[Home & Living]]></string>
+    <string name="transaction_description">Description (Optional)</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="next">Next</string>
+    <string name="transaction_date">Transaction Date</string>
+    <string name="transaction_amount">Transaction Amount (IDR)</string>
+    <string name="maximal_50_characters">Maximal 24 characters</string>
+
+    <!-- About Fragment -->
+    <string name="desc_app">RoboCash is an application that can be used to manage your finances. By recording the amount of your expenses and income, our system will analyze your financial condition whether it is stable or not. We also provide graphical features to make it easier for you to view your financial history.</string>
+    <string name="dev_name">Albert Ardiansyah</string>
+    <string name="desc_dev">Hello, my name is Albert Ardiansyah. I am the developer of this application. I made this application to fulfill the graduation requirement for Mobile Programming course.</string>
+
+    <!-- Profile Fragment -->
+    <string name="logout">logout</string>
+    <string name="name">Name</string>
+    <string name="connected_with_google">Connected with Google</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="pick_from_gallery">Pick From Gallery</string>
+
+</resources>
