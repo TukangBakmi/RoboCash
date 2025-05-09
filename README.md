@@ -1,2 +1,51 @@
-RoboCash is a mobile application that can be used to manage your finances. By Recording the amount of your expenses and income, our system will analyze your financial condition whether it is stable or not. We also provide graphical features to make it easier for you to view your financial history.
-You can run this project on your Android Studio. Or you can also download the .apk file in _apkFile folder and install it on your android device.
+
+# 🤖 RoboCash
+
+**RoboCash** is a mobile application designed to help you manage your personal finances easily and effectively. By recording your income and expenses, RoboCash can analyze your financial health and determine whether your finances are stable or not.
+
+## 📊 Key Features
+
+- 💵 **Income & Expense Tracker**  
+  Record all your daily financial transactions in one place.
+
+- 📈 **Financial Analysis**  
+  Get insights on your financial condition—whether it’s stable or not—based on your transaction history.
+
+- 📉 **Graphical Visualization**  
+  Easily understand your financial trends through charts and graphs.
+
+- 📁 **APK Availability**  
+  Download and install the `.apk` file from the `_apkFile` folder to run the app on your Android device.
+
+## 🚀 Getting Started
+
+### Option 1: Run via Android Studio
+
+1. **Clone this repository**:
+   ```bash
+   git clone https://github.com/yourusername/RoboCash.git
+   ```
+
+2. **Open the project** in Android Studio.
+
+3. **Build and Run** on an emulator or connected Android device.
+
+### Option 2: Install APK
+
+1. Navigate to the `_apkFile` folder.
+2. Transfer the `.apk` file to your Android device.
+3. Install the file (you may need to enable installation from unknown sources).
+
+## 📱 Requirements
+
+- Android Studio (for development and testing)
+- Android device running Android 5.0 (Lollipop) or higher (for APK installation)
+
+## 🙋‍♂️ Author
+
+**Albert Ardiansyah**  
+📫 [@TukangBakmi on GitHub](https://github.com/TukangBakmi)
+
+## 📃 License
+
+This project is for educational purposes only. No financial data is stored on external servers.
