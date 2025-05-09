@@ -41,6 +41,11 @@
 - Android Studio (for development and testing)
 - Android device running Android 5.0 (Lollipop) or higher (for APK installation)
 
+## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/2a0003b6-537b-47b7-8597-599a60adb649)
+![image](https://github.com/user-attachments/assets/3ffab356-1f1f-4cbc-b66d-fd4ab003f79c)
+![image](https://github.com/user-attachments/assets/4656b05b-b614-4262-bfb5-f73eaed58dfb)
+
 ## 🙋‍♂️ Author
 
 **Albert Ardiansyah**  
